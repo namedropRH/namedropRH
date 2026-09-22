@@ -1,0 +1,14 @@
+{
+  "name": "namedrop-keeper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Batches pullMany across vaults with fees waiting in the venue escrow.",
+  "scripts": {
+    "once": "node src/keeper.mjs",
+    "dry": "DRY_RUN=1 node src/keeper.mjs"
+  },
+  "dependencies": {
+    "viem": "^2.56.8"
+  }
+}

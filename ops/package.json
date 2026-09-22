@@ -1,0 +1,8 @@
+{
+  "name": "namedrop-ops",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Guarded owner operations for the Namedrop factory.",
+  "dependencies": { "viem": "^2.56.8" }
+}

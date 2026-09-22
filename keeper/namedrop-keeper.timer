@@ -1,0 +1,12 @@
+[Unit]
+Description=Run the Namedrop keeper every 10 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=10min
+# Spread the load so every keeper on the planet does not hit the RPC on the same second.
+RandomizedDelaySec=45s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,21 @@
+[Unit]
+Description=Namedrop keeper, one pull sweep
+After=docker.service network-online.target
+Requires=docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# --rm so nothing accumulates. Default bridge network ON PURPOSE: the keeper holds a signing
+# key and has no reason to sit on the `coolify` network, where every container can reach the
+# panel and its database. It needs outbound RPC and nothing else.
+ExecStart=/usr/bin/docker run --rm --name namedrop-keeper-run \
+  --network bridge \
+  --env-file /etc/namedrop/keeper.env \
+  --read-only --tmpfs /tmp \
+  --security-opt no-new-privileges:true \
+  --cap-drop ALL \
+  namedrop-keeper:latest
+
+[Install]
+WantedBy=multi-user.target
