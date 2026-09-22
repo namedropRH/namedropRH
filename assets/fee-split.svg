@@ -1,0 +1,58 @@
+<svg width="900" height="556" viewBox="0 0 900 556" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Where the 3 percent trade fee goes">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8b949e"/>
+    </marker>
+    <style>
+      .t{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+      .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .h{fill:#e6edf3;font-size:19px;font-weight:700;letter-spacing:.08em}
+      .s{fill:#8b949e;font-size:13px}
+      .lbl{fill:#8b949e;font-size:13px}
+      .big{fill:#e6edf3;font-size:17px;font-weight:600}
+      .num{font-size:15px;font-weight:600}
+    </style>
+  </defs>
+  <rect width="900" height="556" rx="14" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="554" rx="13" fill="none" stroke="#30363d"/>
+
+  <text x="450" y="44" text-anchor="middle" class="t h">WHERE 3% GOES</text>
+  <text x="450" y="66" text-anchor="middle" class="t s">read from the live venue contracts, not from its documentation</text>
+
+  <rect x="330" y="92" width="240" height="46" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="450" y="121" text-anchor="middle" class="m big">trader spends $10,000</text>
+
+  <line x1="450" y1="138" x2="450" y2="166" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="466" y="160" class="t lbl">total trade fee 3% = $300</text>
+
+  <rect x="60" y="182" width="360" height="126" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="84" y="212" class="t" fill="#d29922" font-size="14" font-weight="700" letter-spacing=".06em">BASE FEE 1% = $100</text>
+  <text x="84" y="242" class="m" fill="#8b949e" font-size="14">venue takes 30%</text>
+  <text x="84" y="268" class="m num" fill="#d29922">$30 to the venue</text>
+  <text x="84" y="292" class="m num" fill="#3fb950">$70 to the vault</text>
+
+  <rect x="480" y="182" width="360" height="126" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="504" y="212" class="t" fill="#3fb950" font-size="14" font-weight="700" letter-spacing=".06em">CREATOR TAX 2% = $200</text>
+  <text x="504" y="242" class="m" fill="#8b949e" font-size="14">venue takes 0%</text>
+  <text x="504" y="268" class="m num" fill="#8b949e">$0 to the venue</text>
+  <text x="504" y="292" class="m num" fill="#3fb950">$200 to the vault</text>
+
+  <path d="M240 308 L240 336 L450 336" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+  <path d="M660 308 L660 336 L450 336" fill="none" stroke="#8b949e" stroke-width="1.5"/>
+  <line x1="450" y1="336" x2="450" y2="366" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <rect x="290" y="382" width="320" height="56" rx="10" fill="#161b22" stroke="#3fb950"/>
+  <text x="450" y="406" text-anchor="middle" class="m" fill="#3fb950" font-size="17" font-weight="700">VAULT RECEIVES $270</text>
+  <text x="450" y="427" text-anchor="middle" class="t s">2.7% of volume</text>
+
+  <path d="M450 438 L450 456 L235 456 L235 478" fill="none" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M450 438 L450 456 L665 456 L665 478" fill="none" stroke="#8b949e" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <rect x="80" y="486" width="310" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="100" y="510" class="m" fill="#3fb950" font-size="15" font-weight="700">80%  =  $216</text>
+  <text x="100" y="529" class="t s">credited to the named account</text>
+
+  <rect x="510" y="486" width="310" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="530" y="510" class="m" fill="#58a6ff" font-size="15" font-weight="700">20%  =  $54</text>
+  <text x="530" y="529" class="t s">to the treasury, same transaction</text>
+</svg>

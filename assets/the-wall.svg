@@ -1,0 +1,81 @@
+<svg width="900" height="446" viewBox="0 0 900 446" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Wall, the public board of unclaimed creator fees">
+  <style>
+    .t{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .col{fill:#6e7681;font-size:11px;font-weight:700;letter-spacing:.1em}
+    .h{fill:#e6edf3;font-size:14px}
+    .v{fill:#3fb950;font-size:14px;font-weight:700}
+    .d{fill:#8b949e;font-size:13px}
+    .badge{font-size:10.5px;font-weight:700;letter-spacing:.06em}
+  </style>
+  <rect width="900" height="446" rx="14" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="444" rx="13" fill="none" stroke="#30363d"/>
+
+  <rect x="1" y="1" width="898" height="52" rx="13" fill="#161b22"/>
+  <rect x="1" y="40" width="898" height="13" fill="#161b22"/>
+  <line x1="1" y1="53" x2="899" y2="53" stroke="#30363d"/>
+  <text x="28" y="33" class="t" fill="#e6edf3" font-size="16" font-weight="700" letter-spacing=".14em">NAMEDROP</text>
+  <rect x="560" y="14" width="180" height="26" rx="13" fill="#0d1117" stroke="#30363d"/>
+  <text x="578" y="31" class="t d" font-size="12">search @handle</text>
+  <rect x="756" y="14" width="116" height="26" rx="13" fill="#238636"/>
+  <text x="814" y="31" text-anchor="middle" class="t" fill="#ffffff" font-size="12.5" font-weight="700">Launch</text>
+
+  <text x="28" y="80" class="t col">HANDLE</text>
+  <text x="392" y="80" class="t col" text-anchor="end">OWED</text>
+  <text x="530" y="80" class="t col" text-anchor="end">WAITING</text>
+  <text x="640" y="80" class="t col" text-anchor="end">COINS</text>
+  <text x="700" y="80" class="t col">STATUS</text>
+  <line x1="20" y1="92" x2="880" y2="92" stroke="#21262d"/>
+
+  <circle cx="38" cy="118" r="12" fill="#21262d"/>
+  <text x="62" y="123" class="m h">@example_founder</text>
+  <text x="392" y="123" class="m v" text-anchor="end">$4,312.08</text>
+  <text x="530" y="123" class="m d" text-anchor="end">6d 04h</text>
+  <text x="640" y="123" class="m d" text-anchor="end">5</text>
+  <rect x="700" y="108" width="92" height="20" rx="10" fill="#21262d" stroke="#30363d"/>
+  <text x="746" y="122" text-anchor="middle" class="t badge" fill="#8b949e">UNCLAIMED</text>
+  <line x1="20" y1="142" x2="880" y2="142" stroke="#21262d"/>
+
+  <circle cx="38" cy="168" r="12" fill="#21262d"/>
+  <text x="62" y="173" class="m h">@example_dev</text>
+  <text x="392" y="173" class="m v" text-anchor="end">$1,204.51</text>
+  <text x="530" y="173" class="m d" text-anchor="end">2d 11h</text>
+  <text x="640" y="173" class="m d" text-anchor="end">2</text>
+  <rect x="700" y="158" width="92" height="20" rx="10" fill="#21262d" stroke="#d29922"/>
+  <text x="746" y="172" text-anchor="middle" class="t badge" fill="#d29922">BINDING</text>
+  <line x1="20" y1="192" x2="880" y2="192" stroke="#21262d"/>
+
+  <circle cx="38" cy="218" r="12" fill="#21262d"/>
+  <text x="62" y="223" class="m h">@example_writer</text>
+  <text x="392" y="223" class="m v" text-anchor="end">$876.40</text>
+  <text x="530" y="223" class="m d" text-anchor="end">11d 02h</text>
+  <text x="640" y="223" class="m d" text-anchor="end">3</text>
+  <rect x="700" y="208" width="92" height="20" rx="10" fill="#21262d" stroke="#30363d"/>
+  <text x="746" y="222" text-anchor="middle" class="t badge" fill="#8b949e">UNCLAIMED</text>
+  <line x1="20" y1="242" x2="880" y2="242" stroke="#21262d"/>
+
+  <circle cx="38" cy="268" r="12" fill="#21262d"/>
+  <text x="62" y="273" class="m h">@example_artist</text>
+  <text x="392" y="273" class="m v" text-anchor="end">$612.19</text>
+  <text x="530" y="273" class="m d" text-anchor="end">18h</text>
+  <text x="640" y="273" class="m d" text-anchor="end">1</text>
+  <rect x="700" y="258" width="92" height="20" rx="10" fill="#21262d" stroke="#3fb950"/>
+  <text x="746" y="272" text-anchor="middle" class="t badge" fill="#3fb950">CLAIMED</text>
+  <line x1="20" y1="292" x2="880" y2="292" stroke="#21262d"/>
+
+  <circle cx="38" cy="318" r="12" fill="#21262d"/>
+  <text x="62" y="323" class="m h">@example_trader</text>
+  <text x="392" y="323" class="m v" text-anchor="end">$148.72</text>
+  <text x="530" y="323" class="m d" text-anchor="end">3d 09h</text>
+  <text x="640" y="323" class="m d" text-anchor="end">1</text>
+  <rect x="700" y="308" width="92" height="20" rx="10" fill="#21262d" stroke="#30363d"/>
+  <text x="746" y="322" text-anchor="middle" class="t badge" fill="#8b949e">UNCLAIMED</text>
+  <line x1="20" y1="342" x2="880" y2="342" stroke="#21262d"/>
+
+  <rect x="20" y="360" width="860" height="62" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="40" y="384" class="t" fill="#6e7681" font-size="11" font-weight="700" letter-spacing=".1em">EVERY CUT, ON EVERY PAGE</text>
+  <text x="40" y="406" class="m" font-size="13" fill="#d29922">venue 0.30%</text>
+  <text x="200" y="406" class="m" font-size="13" fill="#3fb950">named account 2.16%</text>
+  <text x="430" y="406" class="m" font-size="13" fill="#58a6ff">protocol 0.54%</text>
+  <text x="860" y="406" text-anchor="end" class="t" fill="#484f58" font-size="11">illustrative figures</text>
+</svg>
